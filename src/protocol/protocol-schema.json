@@ -1,0 +1,14 @@
+{
+    "description": "JSON Schema definition for SourceHunt protocol",
+    "type": "object",
+    "properties": {
+        "version": {
+            "description": "Protocol version information",
+            "type": "object",
+            "properties": {
+                "major": { "type": "number", "required": "true" },
+                "minor": { "type": "number", "required": "true" }
+            }
+        }
+    }
+}
